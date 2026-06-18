@@ -1,0 +1,143 @@
+nav {
+    background-color: #c13638;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active
+    {
+        color:#fff !important;
+    }
+}
+
+.home-background
+{
+    height: 100vh;
+    background-image: url('../../assets/Reimagine.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title_btn
+{
+    background-color: #f7ebe8;
+    border: none;
+    padding: 8px 30px;
+    color: #d92701;
+}
+
+.about_bg
+{
+    background-image: url('../../assets/Reimagine.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about_container
+{
+    border-top: 3px solid #d92701;
+}
+
+.circle
+{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+
+    i
+    {
+        margin: auto;
+        color: #d92701;
+        font-size: 5vh;
+    }
+}
+
+.number
+{
+    color: #fff;
+    font-weight: 700;
+    font-size: 3vh;
+    margin-top: 10px;
+}
+
+.text
+{
+    color: #fff;
+    font-size: 2vh;
+}
+
+.leader_img
+{
+    width: 150px!important;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    background: #fff;
+}
+
+.leader_name
+{
+    width: 100%;
+    float: left;
+    font-size: 22px;
+    color: #ec6657;
+    padding: 5px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.leader_role
+{
+    width: 100%;
+    float: left;
+    font-size: 15px;
+    color: #ec6657;
+    padding: 5px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer
+{
+    background-color: #d92701;
+    color: #fff;
+
+    .title
+    {
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    i
+    {
+        font-size: 2vh;
+        color:#fff;
+    }
+}
+
+.light-gray-bg
+{
+    background-color: #fafafa;
+}
+
+.product-carousel
+{
+    //padding-bottom: 6rem !important;
+
+    .name{
+    color: #d92701;
+    text-align: left;
+    width: 30vh;
+    margin: 15px auto;
+    }
+}
+
+.quote-icon
+{
+    color: #d92701;
+    font-size: 5vh;
+    margin-bottom: 20px;
+}

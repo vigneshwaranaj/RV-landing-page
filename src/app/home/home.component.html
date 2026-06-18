@@ -1,0 +1,253 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid ps-5">
+      <a class="navbar-brand" href="#">
+          <img class="img-fluid" width="100px" src="assets/Rv Red Logo.png" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item px-3">
+            <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link active" href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link active" href="#contact">CONTACT</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link active" href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link active" href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link active" href="#"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid home-background" id="home">
+
+  </div>
+
+  <div class="container-fluid" id="about">
+      <div class="row">
+        <div class="col-sm-12">
+            <h3 class="text-center my-5">ABOUT</h3>
+      </div>
+        <div class="col-sm-6 about_bg">
+  
+        </div>
+        <div class="col-sm-6 px-5">
+            <div class="about_container pt-5">
+                <div>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    <br>
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line    
+                </div>
+       
+                <button class="title_btn my-5 pull-right">Learn more</button>
+            </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid py-5 text-center product-carousel light-gray-bg">
+    <h3 class="text-center my-5">PRODUCTS CATALOGUE</h3>
+    <div class="wrapper">
+        <owl-carousel-o [options]="customOptions">
+            <ng-template class="slide" carouselSlide>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img style src="assets/Working Area.png" />
+                        <div class="name">Ms pipe</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <img  src="assets/reimagine.png" />
+                        <div class="name">Gi pipe</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <img  src="assets/Break the usual.png" />
+                        <div class="name">Roofing sheet</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <img  src="assets/carosel2.jpeg" />
+                        <div class="name">Roofing sheet</div>
+                    </div>
+                </div>
+            </ng-template>
+            <ng-template class="slide" carouselSlide>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <img style src="assets/carosel4.jpeg" />
+                        <div class="name">Ms pipe</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <img  src="assets/Background.png" />
+                        <div class="name">Gi pipe</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <img  src="assets/TPE Collage.jpg" />
+                        <div class="name">Roofing sheet</div>
+                    </div>
+                    <div class="col-sm-3">
+                        <img  src="assets/Working Area.png" />
+                        <div class="name">Roofing sheet</div>
+                    </div>
+                </div>
+            </ng-template>
+      
+        </owl-carousel-o>  
+      </div>
+      
+</div>
+
+<div class="container-fluid py-5" id="counter_section" style="background-color:#d92701">
+    <div class="row">
+        <div class="col-sm-10 m-auto">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="circle">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                    </div>
+                    <div class="number" id="country"></div>
+                    <div class="text">Countries</div>
+                </div>
+                <div class="col text-center">
+                    <div class="circle">
+                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                    </div>
+                    <div class="number" id="year"></div>
+                    <div class="text">Years</div>
+                </div>
+                <div class="col text-center">
+                    <div class="circle">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                    </div>
+                    <div class="number" id="employee"></div>
+                    <div class="text">Employees</div>
+                </div>
+                <div class="col text-center">
+                    <div class="circle">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                    </div>
+                    <div class="number" id="dealers"></div>
+                    <div class="text">Dealers</div>
+                </div>
+                <div class="col text-center">
+                    <div class="circle">
+                        <i class="fa fa-product-hunt" aria-hidden="true"></i>
+                    </div>
+                    <div class="number" id="products"></div>
+                    <div class="text">Products</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid py-5 light-gray-bg">
+    <div class="row">
+        <div class="col-sm-10 m-auto">
+            <h3 class="text-center my-5">LEADERS</h3>
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <img class="leader_img" src="https://hmdhealthcare.com/wp-content/uploads/2020/07/NARINDRA-NATH-1.png" />
+                    <div class="leader_name">Late Mr. Narindra Nath</div>
+                    <div class="leader_role">Founder</div>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="leader_img" src="https://hmdhealthcare.com/wp-content/uploads/2020/07/Rajiv-Nath-Greyscale.png" />
+                    <div class="leader_name">Mr. Rajiv Nath</div>
+                    <div class="leader_role">Managing Director</div>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <img class="leader_img" src="https://hmdhealthcare.com/wp-content/uploads/2020/07/Sohale-Nath-1.jpg" />
+                    <div class="leader_name">Mr. Sohail Nath</div>
+                    <div class="leader_role">Director</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid pb-5 text-center">
+    <h3 class="text-center my-5">TESTIMONIALS</h3>
+
+    <div class="row">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8" style="box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);">
+            <div class="wrapper">
+                <owl-carousel-o [options]="customOptions">
+                    <ng-template class="slide" carouselSlide>
+                        <div class="row">
+                            <div class="col-sm-12 p-5">
+                              <i class="fa fa-quote-left quote-icon" aria-hidden="true"></i>
+                              <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                            </div>
+                        </div>
+                    </ng-template>
+
+                    <ng-template class="slide" carouselSlide>
+                        <div class="row">
+                            <div class="col-sm-12 p-5">
+                              <i class="fa fa-quote-left quote-icon" aria-hidden="true"></i>
+                              <div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </owl-carousel-o>  
+              </div>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+
+    
+</div>
+
+<div class="container-fluid my-5 py-5 light-gray-bg" id="contact">
+    <div class="row">
+        <div class="col-sm-6 px-5">
+            <h5>GET IN TOUCH</h5>
+            <input type="text" placeholder="Name" class="form-control my-3">
+            <input type="text" placeholder="Email" class="form-control my-3">
+            <button class="title_btn mt-2">SUBMIT</button>
+        </div>
+        <div class="col-sm-6 px-5 d-flex align-items-center justify-content-center flex-column">
+            <div>
+                <i class="fa fa-map-marker me-3" aria-hidden="true"></i>
+                Unit 1 Patancheru - Hyderabad -Andhra
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid footer p-5">
+    <div class="row">
+        <div class="col-sm-4">
+            <img class="img-fluid" width="200px" src="assets/Rv White Logo.png" />
+        </div>
+        <div class="col-sm-6 pe-5">
+            <div class="title">LOCATION</div>
+            <div>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</div>
+        </div>
+        <div class="col-sm-2">
+            <div class="px-3 title">FOLLOW</div>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 flex-row">
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+        </div>
+    </div>
+</div>
